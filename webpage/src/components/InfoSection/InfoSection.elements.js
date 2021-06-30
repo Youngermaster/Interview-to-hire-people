@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#131419')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#F5A16F')};
 `;
 
 export const InfoRow = styled.div`
@@ -47,7 +47,8 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4447E2')};
+  // color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#B962F5')};
+  color: ${({ lightTopLine }) => (lightTopLine ? '#3f3d56' : '#B962F5')};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -69,7 +70,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#FFFFFF' : '#131419')};
+  color: ${({ lightText }) => (lightText ? '#FFFFFF' : '#F5A16F')};
 `;
 
 export const Subtitle = styled.p`
@@ -77,5 +78,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#5F5F6E')};
+  // ! The line below should be an error
+  // color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#5F5F6E')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#3f3d56' : '#3f3d56')};
 `;

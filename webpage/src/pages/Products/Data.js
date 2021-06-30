@@ -4,11 +4,13 @@ export const productsObjOne = {
   lightTopLine: true,
   lightTextDesc: true,
   topLine: 'Main products',
-  headline: 'Smart Glasses and Ring Controller',
+  headline: 'Mont Blanc Cookie',
+  // ! This is an error
   description:
-    'We provide two main products, the Smart Glasses and its corresponding Ring Controller.',
+    'Nosotros vendemos una galleta rellena de chocolate y crema de maní.',
   buttonLabel: 'Shop Now',
   imgStart: 'start',
+  // ! The image doesn't fit the purpose
   img: require('../../images/svg-10.svg'),
   alt: 'Credit Card'
 };
@@ -19,9 +21,9 @@ export const productsObjTwo = {
   lightTopLine: false,
   lightTextDesc: false,
   topLine: 'Customization',
-  headline: 'Custom your Smart Glasses',
+  headline: 'Send the best box of cookies',
   description:
-    'We let you custom the color and the style of your new smart glasses.',
+    'We let you custom the color and the style of your box of CookieBites.',
   buttonLabel: 'Learn More',
   imgStart: '',
   img: require('../../images/svg-4.svg'),

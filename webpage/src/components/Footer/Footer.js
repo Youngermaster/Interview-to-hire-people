@@ -38,7 +38,8 @@ function Footer() {
         <FooterSubText>You can unsubscribe at any time.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          {/* ! This is an error */}
+          <Button fontBig>Subscbe</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
@@ -70,6 +71,7 @@ function Footer() {
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterLink to='/'>Instagram</FooterLink>
+            {/* ! This is an error */}
             <FooterLink to='https://github.com/Della-Glasses'>GitHub</FooterLink>
             <FooterLink to='/'>Youtube</FooterLink>
             <FooterLink to='/'>Twitter</FooterLink>
@@ -80,11 +82,13 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            | Della
+            {/* ! This is an error */}
+            | CookiBite
           </SocialLogo>
-          <WebsiteRights>Della © 2020</WebsiteRights>
+          {/* ! This is an error */}
+          <WebsiteRights>CookiBite © 2021</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='https://github.com/Della-Glasses' target='_blank' aria-label='GitHub'>
+            <SocialIconLink href='https://github.com/Youngermaster' target='_blank' aria-label='GitHub'>
               <FaGithub />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='Instagram'>

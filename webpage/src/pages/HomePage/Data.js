@@ -22,7 +22,9 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Our Vision',
-  headline: 'Make Shocking Services and Products',
+  // ! This is a typo error
+  headline: 'Hacer productos que deleiten hasta al más fino gusto',
+  // ! This text is not exactly what CookieBites does
   description:
     "We will make our products and services impact by improving and facilitating the lives of our clients through our competitiveness, innovation and customization, thus becoming a STANDARD. Achieving high satisfaction and good service to our customers.",
   buttonLabel: 'Learn More',
@@ -38,11 +40,13 @@ export const homeObjThree = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Della develops and manufactures',
+  topLine: 'Las mejor receta',
+  // ! This is a typo error
   headline:
-    'Customizable smart glasses',
+    'What is insiede out cookies?',
+  // ? Beautiful?
   description:
-    "Della is an initiative dedicated to the development and manufacture of customizable smart glasses, which as a platform intends to support activities of daily life and business.",
+    "CookieBites is an initiative dedicated to the development and manufacture of the most beautiful cookies.",
   buttonLabel: 'View Case Study',
   imgStart: 'start',
   img: require('../../images/svg-6.svg'),
@@ -56,6 +60,7 @@ export const homeObjFour = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
+  // ! This is an error of copy paste
   topLine: 'All your data is stored on our servers',
   headline: 'Get Your Files Everywhere',
   description:

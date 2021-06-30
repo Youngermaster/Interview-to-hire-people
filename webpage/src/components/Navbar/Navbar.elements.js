@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background: #131419;
+  background: #F5A16F;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -67,7 +67,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #131419;
+    background: #F5A16F;
   }
 `;
 
@@ -76,7 +76,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4447E2;
+    border-bottom: 2px solid #B962F5;
   }
 
   @media screen and (max-width: 960px) {
@@ -113,7 +113,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4447E2;
+      color: #B962F5;
       transition: all 0.3s ease;
     }
   }
