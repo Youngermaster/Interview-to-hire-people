@@ -79,6 +79,6 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   // ! The line below should be an error
-  // color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#5F5F6E')};
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#3f3d56' : '#3f3d56')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#5F5F6E')};
+  // color: ${({ lightTextDesc }) => (lightTextDesc ? '#3f3d56' : '#3f3d56')};
 `;
