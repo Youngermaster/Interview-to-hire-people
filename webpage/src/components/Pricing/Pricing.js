@@ -56,7 +56,9 @@ function Pricing() {
                   <PricingCardFeature>10 credits</PricingCardFeature>
                   <PricingCardFeature>Free pack perks</PricingCardFeature>
                   <PricingCardFeature>Settings Backup</PricingCardFeature>
-                  <PricingCardFeature>Custom Profile</PricingCardFeature>
+                  {/* ! This is an error */}
+                  <PricingCardFeature>Lorem</PricingCardFeature>
+                  <PricingCardFeature>Lorem</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
